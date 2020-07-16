@@ -19,6 +19,6 @@ app.get('/users', async (req, res) => {
     }
   });
 
-app.listen(process.env.port||8888,()=>{
+app.listen(process.env.PORT||8888,()=>{
 console.log('server has been started');
 });
